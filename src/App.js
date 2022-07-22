@@ -45,7 +45,7 @@ const WaveShaderMaterial = shaderMaterial(
   varying float vWave;
 
   void main() {
-    float wave = vWave * 0.1s;
+    float wave = vWave * 0.1;
     vec3 texture = texture2D(uTexture,vUv+wave).rgb;
     gl_FragColor.rgba = vec4(texture, 1.0);
   }
