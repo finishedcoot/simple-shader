@@ -1,3 +1,6 @@
+### A flag is better when it has waves
+A waving flag that can be used for many commercial cases, made with CRA, using three.js(for this case react-three), making a custom shader that can have wave effects by writing some glsl code.
+
 ![](https://github.com/finishedcoot/simple-shader-waving-flag/blob/main/flag.gif)
 
 # Getting Started with Create React App
